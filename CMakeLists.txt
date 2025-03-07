@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.28)
-project(tsdec C)
+project(ptsdec C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(tsdec
+add_executable(ptsdec
         ptsdec.c)
 
-target_link_libraries(tsdec -ldvbcsa -latomic)
+target_link_libraries(ptsdec -ldvbcsa -latomic)
